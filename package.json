@@ -1,8 +1,8 @@
 {
-  "name": "next-firebase-starter",
+  "name": "Rare Publishing",
   "private": true,
   "version": "1.0.0",
-  "author": "Update Name!",
+  "author": "Shari",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -14,7 +14,7 @@ function Login({ setToken }) {
     e.preventDefault();
 
     const user = {
-      username: username.current.value,
+      userName: username.current.value,
       password: password.current.value,
     };
 

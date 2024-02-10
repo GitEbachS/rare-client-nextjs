@@ -21,8 +21,8 @@ function Home({ setToken }) {
     if (password.current.value === verifyPassword.current.value) {
       const newUser = {
         username: username.current.value,
-        first_name: firstName.current.value,
-        last_name: lastName.current.value,
+        firstName: firstName.current.value,
+        lastName: lastName.current.value,
         email: email.current.value,
         password: password.current.value,
         bio: bio.current.value,
