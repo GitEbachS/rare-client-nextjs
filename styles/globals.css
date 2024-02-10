@@ -24,3 +24,9 @@ body {
 .navbar-item img {
   max-height: 3rem;
 }
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
