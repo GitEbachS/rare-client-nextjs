@@ -47,3 +47,15 @@ export const createTag = (payload) => new Promise((resolve, reject) => {
     .then((data) => resolve(data))
     .catch(reject);
 });
+export const updateTag = (payload) => new Promise((resolve, reject) => {
+  fetch(`${endPoint}${apiUrl}/update/{id}${payload.id}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  })
+    // .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
